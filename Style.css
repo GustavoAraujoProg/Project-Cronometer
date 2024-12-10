@@ -1,0 +1,40 @@
+
+body{
+    text-align: center;
+    padding: 100px;
+    background-image: url("img/Fundo.jpg");
+}
+
+img{
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+div{
+    color: cadetblue;
+    font-size:60px ;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-right: 30px ;
+    border: double;
+    cursor: pointer;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color:dimgrey ;
+    font-size: 19px;
+}
+
+button.haver{
+    opacity: 0.9;
+    
+}
+
+button:active {
+    opacity: 0.6;
+}
